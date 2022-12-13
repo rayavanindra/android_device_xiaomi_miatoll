@@ -21,9 +21,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_miatoll
 
 # HIDL
 ODM_MANIFEST_SKUS += \
-    joyeuse
+    nfc
 
-ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest_joyeuse.xml
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
